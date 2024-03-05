@@ -47,7 +47,7 @@
   background: #e62a4e;
 }
 
-.banner-section .owl-nav .owl-next:hover{
+/* .banner-section .owl-nav .owl-next:hover{
   border-color: #e62a4e;
   background: #e62a4e;
 }
@@ -55,7 +55,7 @@
 .banner-section .owl-nav .owl-prev:hover{
   border-color: #e62a4e;
   background: #e62a4e;
-}
+} */
 
 #image_block_1 .image-box .box .inner h1{
   color: #e62a4e;
@@ -220,12 +220,12 @@ h3 a:hover{
   background: #e62a4e;
   border-color: #e62a4e;
 }
-
+/* 
 .offer-section .owl-nav .owl-prev:hover, 
 .offer-section .owl-nav .owl-next:hover{
   background: #e62a4e;
   border-color: #e62a4e;
-}
+} */
 
 .team-block-one .inner-box .image-box .social-links li a:hover{
   color: #e62a4e;

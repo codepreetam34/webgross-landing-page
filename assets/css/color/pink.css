@@ -47,7 +47,7 @@
   	background: #ff6ec7;
 }
 
-.banner-section .owl-nav .owl-next:hover{
+/* .banner-section .owl-nav .owl-next:hover{
   border-color: #ff6ec7;
   background: #ff6ec7;
 }
@@ -55,7 +55,7 @@
 .banner-section .owl-nav .owl-prev:hover{
   border-color: #ff6ec7;
   background: #ff6ec7;
-}
+} */
 
 #image_block_1 .image-box .box .inner h1{
   color: #ff6ec7;

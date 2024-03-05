@@ -703,7 +703,7 @@ img {
 
 .main-header.style-one .header-upper .upper-left{
   position: relative;
-  padding: 25px 0px;
+  padding: 15px 0px 0;
 }
 
 .main-header.style-one .header-upper .upper-left .btn-box{
@@ -1928,7 +1928,7 @@ div#mCSB_1_container{
   transform: translateY(-50%);
 }
 
-.banner-section .owl-nav .owl-prev{
+/* .banner-section .owl-nav .owl-prev{
   position: absolute;
   width: 60px;
   height: 60px;
@@ -1971,7 +1971,7 @@ div#mCSB_1_container{
 .banner-section .banner-carousel:hover .owl-nav .owl-prev,
 .banner-section .banner-carousel:hover .owl-nav .owl-next{
   opacity: 1;
-}
+} */
 
 .banner-section .owl-nav .owl-next:hover{
 
