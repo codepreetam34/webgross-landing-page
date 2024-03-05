@@ -94,6 +94,7 @@
   
           .inquiry-form input[type="text"],
           .inquiry-form input[type="email"],
+          .inquiry-form input[type="mobile"],
           .inquiry-form textarea {
               width: 100%;
               padding: 10px;
@@ -1807,7 +1808,9 @@
       <div class="modal-content">
   
         <div class="inquiry-section bg-color-1" style="padding: 1rem;">
-    <span class="close">&times;</span>
+         <div>
+          <span class="close">&times;</span>
+        </div>
           <div>
           <h2 style="color: #fff;">Get Free Assessment Today !</h2>
           <p style="color: #fff;">Feel free to inquire about any questions you have.</p>
@@ -1820,15 +1823,9 @@
             <div class="form-group">
                 <input type="email" id="email" name="email" placeholder="Email address" required>
             </div>
-            
             <div class="form-group">
-              <input
-                type="mobile"
-                name="mobile"
-                placeholder="Mobile Number"
-                required=""
-              />
-            </div>
+              <input type="mobile" id="mobile" name="mobile" placeholder="Mobile Number" required>
+          </div>
       
             <div class="form-group">
                 <textarea id="message" name="message" placeholder="Message"></textarea>
@@ -1836,7 +1833,9 @@
             <div class="form-group">
                 <button type="button" class="theme-btn-two" onclick="sendEmail()"><i class="flaticon-send"></i> Send Message</button>
             </div>
-        </form>
+       
+          </form>
+
       </div>
 
         
