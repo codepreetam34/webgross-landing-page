@@ -260,6 +260,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+figure .new{
+  margin: -2px;
+}
 figure{
   margin: 0px;
 }
@@ -788,7 +791,7 @@ img {
   position:inherit;
   float:left;
   z-index:2;
-  padding:38px 0px 36px 0px;
+  padding:0px 0px 0px 0px;
   margin: 0px 18px;
   -webkit-transition:all 300ms ease;
   -moz-transition:all 300ms ease;
@@ -1583,7 +1586,7 @@ div#mCSB_1_container{
 }
 
 .sticky-header .main-menu .navigation > li{
-  padding: 0px !important;
+  /* padding: 0px !important; */
   margin: 0px !important;
 }
 
@@ -1986,7 +1989,7 @@ div#mCSB_1_container{
 
 .about-section{
   position: relative;
-  padding: 110px 0px 415px 0px;
+  padding: 30px 0px 350px 0px;
   margin-bottom: -246px;
 }
 
@@ -6642,4 +6645,19 @@ h3 a:hover{
 
 .mr-0{
   margin: 0px !important;
+}
+
+
+.outer-box {
+  display: flex;
+  align-items: center;
+} 
+
+
+.menu-area.pull-rightmenu{
+  margin-left: 7rem;
+}
+
+.menu-area.pull-rightmenusticky{
+  margin-left: 1rem;
 }
