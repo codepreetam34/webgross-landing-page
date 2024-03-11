@@ -11,7 +11,7 @@
     <title>The Webgross</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -41,17 +41,16 @@
 
 
     <style>
-      /* Style for the modal */
       .modal {
-          display: none; /* Hidden by default */
-          position: fixed; /* Stay in place */
-          z-index: 9999; /* Sit on top */
+          display: none; 
+          position: fixed; 
+          z-index: 9999;
           left: 0;
           top: 0;
-          width: 100%; /* Full width */
-          height: 100%; /* Full height */
-          overflow: auto; /* Enable scroll if needed */
-          background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgba(0, 0, 0, 0.4);
       }
   
       /* Modal content */
@@ -59,23 +58,22 @@
           background-color: #fefefe;
           margin: 0 auto;
           border: 1px solid #888;
-          width: 30rem; /* Set width of modal */
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
-          position: absolute; /* Position relative to the viewport */
-          left: 50%; /* Center horizontally */
-          top: 50%; /* Center vertically */
-          transform: translate(-50%, -50%); /* Center the modal */
-          animation-name: fadeInDownModal; /* Apply fadeInDown animation */
-          animation-duration: 500ms; /* Animation duration */
-          animation-timing-function: linear; /* Animation timing function */
-          animation-iteration-count: 1; /* Animation iteration count */
+          width: 30rem; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          position: absolute; 
+          left: 50%; 
+          top: 50%; 
+          transform: translate(-50%, -50%); 
+          animation-name: fadeInDownModal;
+          animation-duration: 500ms;
+          animation-timing-function: linear; 
+          animation-iteration-count: 1; 
           transition: all 500ms ease;
           -webkit-transition:all 500ms ease;
       
       
       }
   
-      /* Close button */
       .close {
           cursor: pointer;
           color: #aaa;
@@ -91,7 +89,6 @@
           cursor: pointer;
       }
   
-      /* Style for the form inside the modal */
       .inquiry-form {
           margin-top: 20px;
       }
@@ -129,15 +126,14 @@
           background-color: #0056b3;
       }
 
-        /* Keyframes for fadeInDown animation */
     @keyframes fadeInDownModal {
       from {
-          top: -50%; /* Initial position above the viewport */
-          opacity: 0; /* Initially transparent */
+          top: -50%; 
+          opacity: 0; 
       }
       to {
-          top: 50%; /* Final position centered */
-          opacity: 1; /* Fully visible */
+          top: 50%; 
+          opacity: 1; 
       }
   }
   </style>
@@ -260,7 +256,7 @@
                         <a href="#services" class="scroll-link">Services</a>
                       </li>
                       <li class="dropdown">
-                        <a href="#elements" class="scroll-link">Elements</a>
+                        <a href="#elements" class="scroll-link">Expertise</a>
                       </li>
                       <li class="dropdown">
                         <a href="#testimonials" class="scroll-link">Testimonials</a>
@@ -569,8 +565,6 @@
         </div>
       </section>
       <!-- training-section end -->
-
-
 
       <!-- about-section -->
       <section class="about-section">
@@ -1188,7 +1182,8 @@
         <div class="auto-container">
           <div class="sec-title centred">
             <p>clients testimonials</p>
-            <h2>Our clients praise us for our great results, personable service, <br /> expert knowledge and on-time delivery</h2>
+            <!-- , personable service, <br /> expert knowledge and on-time delivery -->
+            <h2>Our clients praise us for our great Results</h2>
             <div class="dotted-box">
               <span class="dotted"></span>
               <span class="dotted"></span>
@@ -1201,7 +1196,7 @@
                 <div class="author-inner">
                   <figure class="image-box">
                     <img
-                      src="assets/images/resource/testimonial-1.png"
+                      src="assets/images/girl.avif"
                       alt=""
                     />
                   </figure>
@@ -1234,7 +1229,7 @@
                 <div class="author-inner">
                   <figure class="image-box">
                     <img
-                      src="assets/images/resource/testimonial-2.png"
+                      src="assets/images/men.jpg"
                       alt=""
                     />
                   </figure>
@@ -1354,7 +1349,6 @@
       </section>
       <!-- inquiry-section end -->
 
-      
       <!-- main-footer -->
       <footer class="main-footer bg-color-2">
         <div class="auto-container">
@@ -1374,10 +1368,6 @@
         <i class="fas fa-long-arrow-alt-up"></i>
       </button>
     </div>
-
-
-
-
 
     <!-- Modal HTML -->
 
@@ -1422,76 +1412,56 @@
 
   </div>
 </div>
-  <!-- Your existing JavaScript and jQuery scripts go here -->
-
   
   <script>
-    // Get the modal
     var modal = document.getElementById('myModal');
 
-    // Get the close button
     var closeBtn = document.getElementsByClassName('close')[0];
 
-    // When the user clicks the close button, close the modal
     closeBtn.onclick = function() {
         modal.style.display = 'none';
     }
 
-    // Add hover effect to the close button
     closeBtn.onmouseover = function() {
-        // Change close button color on hover
-        closeBtn.style.color = '#ff0000'; // Example hover color
+        closeBtn.style.color = '#ff0000'; 
     }
 
     closeBtn.onmouseout = function() {
-        // Revert close button color on mouseout
-        closeBtn.style.color = '#000000'; // Example original color
+        closeBtn.style.color = '#000000'; 
     }
 
-    // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = 'none';
         }
     }
 
-    // Function to show the modal popup after 10 seconds
     function showModalPopup() {
         modal.style.display = 'block';
     }
 
-    // Wait for 10 seconds before showing the modal popup
-    setTimeout(showModalPopup, 5000); // 10 seconds delay
+    setTimeout(showModalPopup, 5000);
 </script>
 
 
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
 
-      // Initialize EmailJS with your User ID
       emailjs.init("laml2y_FNTziCV5S-");
   
-      // Function to send email
       function sendEmail() {
-          // Collect form data
           var formData = {
               name: document.getElementById('name').value,
               email: document.getElementById('email').value,
               mobile: document.getElementById('mobile').value,
               message: document.getElementById('message').value
           };
-
-          console.log("form data ", formData)
   
-          // Send email using EmailJS
           emailjs.send("service_8stzfar", "template_n00mijo", formData)
               .then(function(response) {
-                  // Email sent successfully
                   alert('Your message has been sent successfully.');
-                  // Clear form fields if needed
                   document.getElementById('inquiryForm').reset();
               }, function(error) {
-                  // Error sending email
                   console.error('Failed to send your message:', error);
                   alert('Failed to send your message. Please try again later.');
               });
@@ -1513,20 +1483,17 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/jQuery.style.switcher.min.js"></script>
 
-    <!-- main-js -->
     <script src="assets/js/script.js"></script>
 
     <script>
-      // Smooth scrolling function
   $('.scroll-link').on('click', function(e) {
     e.preventDefault();
     var target = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(target).offset().top
-    }, 800); // Adjust the scroll speed if needed
+    }, 800); 
   });
   
     </script>
   </body>
-  <!-- End of .page_wrapper -->
 </html>
