@@ -679,6 +679,7 @@
                     <img
                       src="assets/images/seo.jpg"
                       alt=""
+                      style="width: 360px; height:240px"
                     />
                   </figure>
                   <div class="text">
@@ -1205,6 +1206,7 @@
             </div>
           </div>
           <div class="two-column-carousel owl-carousel owl-theme owl-nav-none">
+            
             <div class="testimonial-block-one">
               <div class="inner-box">
                 <div class="author-inner">
@@ -1236,6 +1238,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="testimonial-block-one">
               <div class="inner-box">
                 <div class="author-inner">
@@ -1260,6 +1263,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="testimonial-block-one">
               <div class="inner-box">
                 <div class="author-inner">
@@ -1286,6 +1290,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="testimonial-block-one">
               <div class="inner-box">
                 <div class="author-inner">
@@ -1309,6 +1314,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
