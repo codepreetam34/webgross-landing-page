@@ -153,7 +153,7 @@
               <button><i class="fas fa-phone-volume"></i></button>
           </a>
           <!-- WhatsApp button -->
-          <a href="https://wa.me/917827291387" target="_blank">
+          <a href="https://wa.me/7827291387" target="_blank">
               <button><i class="fab fa-whatsapp"></i></button>
           </a>
       </div>
