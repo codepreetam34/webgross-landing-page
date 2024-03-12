@@ -75,7 +75,7 @@
       }
       @media (max-width: 600px) {
         .modal-content {
-            width: 22rem; /* Set width for mobile devices */
+            width: 22rem; 
         }
     }
       .close {
@@ -147,8 +147,7 @@
   <!-- page wrapper -->
   <body>
     <div class="boxed_wrapper">
-      <!-- Preloader -->
-
+     
       <!-- switcher menu -->
       <div class="switcher">
         <div class="switch_btn">
@@ -163,7 +162,9 @@
       </div>
       
 
-        <!-- <div class="switch_menu">
+        <!-- 
+      
+          <div class="switch_menu">
      
           <div class="switcher_container">
             <ul id="styleOptions" title="switch styling">
@@ -204,7 +205,11 @@
               </li>
             </ul>
           </div>
-        </div> -->
+        </div> 
+      
+      -->
+
+
       </div>
       <!-- end switcher menu -->
 
