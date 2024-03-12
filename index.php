@@ -148,10 +148,12 @@
       <!-- switcher menu -->
       <div class="switcher">
         <div class="switch_btn">
-          <button><i class="fas fa-palette"></i></button>
+          <!-- <button><i class="fas fa-palette"></i></button> -->
+
+          
         </div>
-        <div class="switch_menu">
-          <!-- color changer -->
+        <!-- <div class="switch_menu">
+     
           <div class="switcher_container">
             <ul id="styleOptions" title="switch styling">
               <li>
@@ -191,7 +193,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- end switcher menu -->
 
@@ -392,7 +394,7 @@
                     <div class="inner-box">
                       <h4>Get Free Assessment Today !</h4>
                       <h2>
-                        Fell Free To Enquire About <br />Any Questions You Got
+                        Feel Free To Enquire About <br />Any Questions You Got
                       </h2>
                       <form
                         action="index.html"
@@ -452,12 +454,9 @@
           <div class="sec-title centred" style="padding-top:1rem">
           <h2>Clients Trust Us</h2>
           </div>
-
-
           <img src="assets/images/clients/clients-logos.png" alt="" />
         </div>
       </section>
-
 
       <!-- training-section -->
       <section class="training-section bg-color-2" id="clients">
@@ -1274,7 +1273,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
               <div class="inner-box">
                 <h4>Get Free Assessment Today !</h4>
-                <h2>Fell Free To Enquire About <br />Any Questions You Got</h2>
+                <h2>Feel Free To Enquire About <br />Any Questions You Got</h2>
                 <form action="index.html" method="post" class="inquiry-form">
                   <div class="form-group">
                     <input
