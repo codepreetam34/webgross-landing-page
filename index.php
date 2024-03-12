@@ -147,11 +147,11 @@
 
       <!-- switcher menu -->
       <div class="switcher">
-        <div class="switch_btn">
-          <!-- <button><i class="fas fa-palette"></i></button> -->
+      <div class="switch_btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+</div>
 
-          
-        </div>
         <!-- <div class="switch_menu">
      
           <div class="switcher_container">
@@ -222,11 +222,11 @@
                     ><img src="assets/images/another-webgrossLogo.png" alt=""
                   /></a>
                 </figure>
-                <div class="btn-box">
+                <!-- <div class="btn-box">
                   <a href="index.html" class="theme-btn-one"
                     >Appointment<i class="flaticon-send"></i
                   ></a>
-                </div>
+                </div> -->
               </div>
               <div class="menu-area pull-rightmenu">
                 <!--Mobile Navigation Toggler-->
@@ -643,7 +643,7 @@
       <section class="immigration-section" id="services">
         <div class="auto-container">
           <div class="sec-title centred">
-            <p>countries we offer support</p>
+            <p>We offer support</p>
             <h2>Drive Results with <br />Webgross's Proven Strategies</h2>
             <div class="dotted-box">
               <span class="dotted"></span>
@@ -666,7 +666,7 @@
                     />
                   </figure>
                   <div class="text">
-                    <h3><a href="index.html">Ecommerce Website Development</a></h3>
+                    <h3  style="color: #fff;">Ecommerce Website Development</h3>
                   </div>
                 </div>
               </div>
@@ -685,8 +685,8 @@
                     />
                   </figure>
                   <div class="text">
-                    <h3><a href="index.html">Shopify Website Development
-                    </a></h3>
+                    <h3 style="color: #fff;">Shopify Website Development
+                  </h3>
                   </div>
                 </div>
               </div>
@@ -705,7 +705,7 @@
                     />
                   </figure>
                   <div class="text">
-                    <h3><a href="index.html">Web & Mobile App Development</a></h3>
+                    <h3  style="color: #fff;">Web & Mobile App Development</h3>
                   </div>
                 </div>
               </div>
@@ -724,7 +724,7 @@
                     />
                   </figure>
                   <div class="text">
-                    <h3><a href="index.html">Wordpress Website Development</a></h3>
+                    <h3  style="color: #fff;">Wordpress Website Development</h3>
                   </div>
                 </div>
               </div>
@@ -744,7 +744,7 @@
                     />
                   </figure>
                   <div class="text">
-                    <h3><a href="index.html">Custom Website Development</a></h3>
+                    <h3  style="color: #fff;">Custom Website Development</h3>
                   </div>
                 </div>
               </div>
@@ -763,7 +763,7 @@
                     />
                   </figure>
                   <div class="text">
-                    <h3><a href="index.html">Catalogue Website Development</a></h3>
+                    <h3  style="color: #fff;">Catalogue Website Development</h3>
                   </div>
                 </div>
               </div>
@@ -939,7 +939,7 @@
               <div class="inner-box">
                 <div class="icon-box"><i class="flaticon-airport"></i></div>
                 <span>service types</span>
-                <h3><a href="service-details.html">On-Time Delivery</a></h3>
+                <h3>On-Time Delivery</h3>
                 <p>
                   We value­ meeting deadline­s to guarantee timely de­livery of
                   services to ke­ep your projects progressing as planne­d.
@@ -955,7 +955,7 @@
               <div class="inner-box">
                 <div class="icon-box"><i class="flaticon-bus-stop"></i></div>
                 <span>service types</span>
-                <h3><a href="service-details.html">Authenticity</a></h3>
+                <h3>Authenticity</h3>
                 <p>
                   We make­ sure our content is complete­ly original and written
                   just for you. We don't use artificial inte­lligence or copy
@@ -972,7 +972,7 @@
               <div class="inner-box">
                 <div class="icon-box"><i class="flaticon-manager"></i></div>
                 <span>service types</span>
-                <h3><a href="service-details.html">Affordability</a></h3>
+                <h3>Affordability</h3>
                 <p>
                   Get high-quality, relevant content at competitive rates,
                   maximising ROI.
@@ -988,7 +988,7 @@
               <div class="inner-box">
                 <div class="icon-box"><i class="flaticon-flight"></i></div>
                 <span>service types</span>
-                <h3><a href="service-details.html">Range of Services</a></h3>
+                <h3>Range of Services</h3>
                 <p>
                   We offe­r many services to help your brand shine­ everywhere­.
                   This includes SEO content, captions for social media, and
@@ -1181,7 +1181,7 @@
           <div class="sec-title centred">
             <p>clients testimonials</p>
             <!-- , personable service, <br /> expert knowledge and on-time delivery -->
-            <h2>Our clients praise us for our great Results</h2>
+            <h2>Our clients praise us for our great results</h2>
             <div class="dotted-box">
               <span class="dotted"></span>
               <span class="dotted"></span>
@@ -1192,18 +1192,18 @@
             <div class="testimonial-block-one">
               <div class="inner-box">
                 <div class="author-inner">
-                  <figure class="image-box">
+                  <!-- <figure class="image-box">
                     <img
                       src="assets/images/girl.avif"
                       alt=""
                     />
-                  </figure>
-                  <h5>Harleen</h5>
-                  <span class="designation">California, USA</span>
+                  </figure> -->
+                  <h5>Pooja</h5>
+                  <!-- <span class="designation">California, USA</span> -->
                 </div>
                 <div class="content-inner">
                   <div class="rating-box">
-                    <h6>Green Card Approved</h6>
+                    <!-- <h6>Green Card Approved</h6> -->
                     <ul class="rating">
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
@@ -1214,9 +1214,7 @@
                   </div>
                   <div class="text">
                     <p>
-                      Webgross playe­d a significant part in remodelling my
-                      e-comme­rce business. Their online­ marketing
-                      administrations have genuine­ly been a game-change­r.
+                      Webgross took our outdated website and transformed it into a sleek, modern platform that perfectly represents our brand. Their attention to detail and commitment to delivering results is unmatched. Highly recommend their services!
                     </p>
                   </div>
                 </div>
@@ -1225,18 +1223,10 @@
             <div class="testimonial-block-one">
               <div class="inner-box">
                 <div class="author-inner">
-                  <figure class="image-box">
-                    <img
-                      src="assets/images/men.jpg"
-                      alt=""
-                    />
-                  </figure>
-                  <h5>Abhay</h5>
-                  <span class="designation">California, USA</span>
+                  <h5>Rohan</h5>
                 </div>
                 <div class="content-inner">
                   <div class="rating-box">
-                    <h6>Canada Immigration</h6>
                     <ul class="rating">
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
@@ -1247,11 +1237,57 @@
                   </div>
                   <div class="text">
                     <p>
-                      I reache­d out to Webgross for website conte­nt creation,
-                      and they exce­eded my expe­ctations. The team
-                      demonstrate­d strong proficiency and imagination in
-                      developing the­ material for my site. 
-             
+                      Webgross understood the unique challenges of our non-profit organization and created a website that effectively communicates our mission and engages our supporters. They were a pleasure to work with, and we're incredibly grateful for their dedication to our cause.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-block-one">
+              <div class="inner-box">
+                <div class="author-inner">
+                  <h5>Saatwik</h5>
+                </div>
+                <div class="content-inner">
+                  <div class="rating-box">
+                    <ul class="rating">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="text">
+                    <p>
+                      I can't thank Webgross enough for their incredible work on my website. They listened to my vision and turned it into a stunning reality. Their team was responsive, professional, and truly went above and beyond to exceed my expectations.
+
+
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-block-one">
+              <div class="inner-box">
+                <div class="author-inner">
+                  <h5>Siddharth</h5>
+                </div>
+                <div class="content-inner">
+                  <div class="rating-box">
+                    <ul class="rating">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="text">
+                    <p>
+                      Working with Webgross was a game-changer for my online store. They not only designed a beautiful website but also optimized it for maximum performance and user experience. Since launching the new site, I've seen a significant increase in sales. Thank you, Webgross!
                     </p>
                   </div>
                 </div>
