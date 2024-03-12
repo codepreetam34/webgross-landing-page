@@ -1072,7 +1072,7 @@
                       >0</span
                     ><span>%</span>
                   </div>
-                  <h3>99% Increased Brand Visibility</h3>
+                  <h3>Increased Brand Visibility</h3>
                 </div>
               </div>
             </div>
