@@ -73,7 +73,11 @@
       
       
       }
-  
+      @media (max-width: 600px) {
+        .modal-content {
+            width: 22rem; /* Set width for mobile devices */
+        }
+    }
       .close {
           cursor: pointer;
           color: #aaa;
